@@ -1,29 +1,65 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <title>Login Seite</title>
-  <link rel="stylesheet" href="./style.css">
+<html lang="en">
 
 
 
-</head>
+
+	<head>
+
+		<style>
+
+
+		body{
+			background: fixed center;
+			background-image: url('../image/intakt.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: left;
+			margin-top: 200px;
+			color:white;
+		}
+		</style>
+
+	</head>
+
+
+<h1> 
+
+Anmeldung
+
+</h1>
+
+
 <body>
 
-<div id="bg"></div>
 
-<form>
-  <div class="form-field">
-    <input type="Benutzername" placeholder="Benutzername" required/>
-  </div>
-  
-  <div class="form-field">
-    <input type="passwort" placeholder="Passwort" required/>                         
-  </div>
-  
-  <div class="form-field">
-    <button class="btn" type="submit">anmelden</button>
-  </div>
-</form>
-  
+
+
+<p>
+Benutzername:
+</p>
+
+<input type = "text">
+
+<br/>
+<br/>
+
+<p>
+Passwort:
+</p>
+
+<input type = "text">
+
+
+<br/>
+<br/>
+<br/>
+<button onclick="Login()">
+
+        Anmelden
+    
+	</button>
+
+
 </body>
 </html>
